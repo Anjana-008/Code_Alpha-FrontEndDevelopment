@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Anjana's Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    </header>
+    
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-female-icon.png" alt="Profile Picture" class="profile-img">
+            <p>I'm Anjana, a web developer with a passion for creating interactive and dynamic applications.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="photos/Screenshot 2024-10-27 153223.png" alt="Calculator Project Image">
+                <h3>Calculator</h3>
+                <p>A colorful, theme-based calculator with animations and an intuitive interface.</p>
+            </div>
+            <div class="project">
+                <img src="photos/Screenshot 2024-10-27 153300.png" alt="Music Player Project Image">
+                <h3>Music Player</h3>
+                <p>Interactive music player featuring playlist management and smooth controls.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Calculator Project:</strong> Developed using HTML, CSS, and JavaScript with dynamic theme changes.</li>
+                <li><strong>Music Player Project:</strong> Created a music player with interactive features and seamless audio control.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anjana's Portfolio. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
